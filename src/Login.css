@@ -1,0 +1,33 @@
+.login {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+
+.login > div > img {
+  object-fit: contain;
+  width: 200px;
+  color: #3b5998;
+  padding: 10px;
+}
+
+.login > div {
+  display: flex;
+  flex-direction: column;
+}
+
+.login > Button {
+  background-color: #3b5998;
+  color: white;
+  width: 200px;
+}
+
+.login > Button:hover {
+  background-color: #3b5999;
+}
+
+.login_credits {
+  align-self: center;
+  color: #3b5998;
+  font-size: x-small;
+}
