@@ -10,7 +10,7 @@ import Widgets from "./Widgets";
 function App() {
   const [{ user }, dispatch] = useStateValue();
   return (
-    //BEM naming convention
+    //BEM naming convention //to test
     <div className="app">
       {!user ? (
         <Login />
